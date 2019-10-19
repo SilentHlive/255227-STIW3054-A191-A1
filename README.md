@@ -1,4 +1,4 @@
-Technical-recipes.com. (2019). Read Text file in string array Java | technical-recipes.com. [online] Available at: https://www.technical-recipes.com/2011/reading-text-files-into-string-arrays-in-java/ [Accessed 19 Oct. 2019].Peppers, J. (2019). How to get text inside of table and iterate multiple. [online] Stack Overflow. Available at: https://stackoverflow.com/questions/38147036/how-to-get-text-inside-of-table-and-iterate-multiple [Accessed 17 Oct. 2019].C, J. (2019). Storing object into an array - Java. [online] Stack Overflow. Available at: https://stackoverflow.com/questions/33485534/storing-object-into-an-array-java [Accessed 15 Oct. 2019].# 255227-STIW3054-A191-A1
+# 255227-STIW3054-A191-A1
 Semester : #A191<br />
 Course : #STIW3054<br />
 Group : A<br />
