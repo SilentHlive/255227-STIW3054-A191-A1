@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="255227-STIW3054-A191-A1:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/255227_STIW3054_A191_A1_jar</output-path>
+    <root id="archive" name="255227-STIW3054-A191-A1.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
