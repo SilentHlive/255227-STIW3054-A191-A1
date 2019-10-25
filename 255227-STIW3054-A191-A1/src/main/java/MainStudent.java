@@ -1,16 +1,15 @@
-import javax.swing.plaf.synth.SynthEditorPaneUI;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainStudent {
     private static final String FILE_NAME = "C:\\Users\\HALIMAH\\IdeaProjects\\255227-STIW3054-A191-A1\\list_of_student.xls";
+    private static ArrayList<String> list = new ArrayList<String>( );
     public static void main(String[] args) throws IOException {
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(FILE_NAME)));
         ReadFile rf = new ReadFile();
         int k=1;
         int g=1;
-        String[] temp= new String[0];
         // The text file location of your choice
         String filename = "C:\\Users\\HALIMAH\\IdeaProjects\\255227-STIW3054-A191-A1\\student.xls";
         String filename2 = "C:\\Users\\HALIMAH\\IdeaProjects\\255227-STIW3054-A191-A1\\account.xls";
@@ -31,20 +30,20 @@ public class MainStudent {
             //System.out.println(lines[i]);
             for (int j = 0; j < lines2.length; j++) {
                 str2[j] = lines2[j].substring(0, 6);
-
                 if (str[i].equals(str2[j])) {
                     str3[j] = lines2[j].substring(7);
                     System.out.printf("| %-5s| %-8s| %-39s | %-40s |\n", k, str[i],lines[i].substring(7),str3[j]);
                     out.printf("%-5s%-8s%-80s%-20s\n", k, str[i],lines[i].substring(7),str3[j]);
-
+                    list.add(str[i]);
                     k++;
                 }
+
             }
+
         }
             out.close();
             System.out.println();
-
-
+            int num =lines.length;
 
     }
 

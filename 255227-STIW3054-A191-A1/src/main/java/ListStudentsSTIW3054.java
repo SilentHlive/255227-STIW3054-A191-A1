@@ -1,7 +1,5 @@
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
