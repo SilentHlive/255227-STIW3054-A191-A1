@@ -10,7 +10,7 @@ Result:<br />
 UML Class Diagram : <br />
   <img src="https://github.com/SilentHlive/255227-STIW3054-A191-A1/blob/master/255227-STIW3054-A191-A1/uml.png" width="500" alt="accessibility text">
 <br />Youtube Presentation<br />
-https://youtu.be/zyDvmMnwNKk<br /><<br />
+https://youtu.be/zyDvmMnwNKk<br /><br />
 References <br/>
 www.javatpoint.com. (2019). Java Constructor - Javatpoint. [online] Available at: https://www.javatpoint.com/java-constructor [Accessed 15 Oct. 2019].<br />
 Codota.com. (2019). org.jsoup.nodes.Element.select java code examples | Codota. [online] Available at: https://www.codota.com/code/java/methods/org.jsoup.nodes.Element/select [Accessed 15 Oct. 2019].<br />
