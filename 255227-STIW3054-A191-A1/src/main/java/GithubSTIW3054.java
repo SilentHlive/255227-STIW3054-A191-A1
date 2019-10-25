@@ -43,7 +43,7 @@ public class GithubSTIW3054 {
     public void createAcc(String matricno, String link) throws IOException {
         GithubSTIW3054 s = new GithubSTIW3054(matricno, link);
         list.add(s);
-        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("account.xls")));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("C:\\Users\\HALIMAH\\IdeaProjects\\255227-STIW3054-A191-A1\\account.xls")));
         for (int x = 0; x < list.size( ); x++) {
             out.println(list.get(x).getMatricNo( ) + " " + list.get(x).getLink( ));
         }
