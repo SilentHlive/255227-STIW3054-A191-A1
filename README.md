@@ -1,9 +1,9 @@
 # 255227-STIW3054-A191-A1
-Semester : #A191<br />
-Course : #STIW3054<br />
-Group : A<br />
-Matric No. : 255227<br />
-Name : NORHALIMAH BINTI MOHAMAD RAMLI<br />
+NORHALIMAH BINTI MOHAMAD RAMLI(255227)<br />
+Read data from a Github Issue page(https://github.com/STIW3054-A191/Main-Issues/issues/1). Then,read data from a Github Wiki page(https://github.com/STIW3054-A191/Assignments/wiki/List_of_Student).<br />
+Compare the data and produce the following reports:<br />
+List all students who have submitted the GitHub account.<br />
+List all students who have not submitted the GitHub account.<br />
 
 
 
