@@ -21,7 +21,7 @@ public class MainStudent {
             String str3[] = new String[lines2.length];
             //System.out.println(lines.length);
             //System.out.println(lines2.length);
-            System.out.println("");
+            System.out.println("List all students who have submitted the GitHub account.");
             System.out.printf("| %-5s| %-8s| %-39s | %-40s |\n", "No", "Matric", "Name", "GitHub Link");
             out.printf("%-5s%-8s%-100s%-20s\n", "No", "Matric", "Name", "GitHub Link");
             System.out.printf("| %5s| %8s| %39s | %40s |\n", "-----", "--------", "---------------------------------------", "----------------------------------------");
@@ -42,22 +42,9 @@ public class MainStudent {
             }
         }
             out.close();
-        System.out.println();
-        System.out.printf("| %-5s| %-8s| %-39s |\n", "No", "Matric", "Name");
-        System.out.printf("| %5s| %8s| %39s |\n", "-----", "--------", "---------------------------------------");
+            System.out.println();
 
-        for (int i = 0; i < lines.length; i++) {
-            str[i] = lines[i].substring(0, 6);
-            //System.out.println(lines[i]);
-            for (int j = 0; j < lines2.length; j++) {
-                str2[j] = lines2[j].substring(0, 6);
-                if (!str[i].matches(str2[j])) {
 
-                }
-            }
-            System.out.printf("| %-5s| %-8s| %-39s |\n", g, str[i],lines[i].substring(7));
-            g++;
-        }
 
     }
 
