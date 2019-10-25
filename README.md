@@ -4,7 +4,7 @@ Read data from a Github Issue page(https://github.com/STIW3054-A191/Main-Issues/
 Compare the data and produce the following reports:<br />
 List all students who have submitted the GitHub account.<br />
 List all students who have not submitted the GitHub account.<br />
-
+UML Class Diagram <br />
 ![alt text](https://github.com/SilentHlive/255227-STIW3054-A191-A1/blob/master/255227-STIW3054-A191-A1/uml.png)
 
 
