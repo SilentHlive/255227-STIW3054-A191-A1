@@ -45,7 +45,7 @@ public class StudentSTIW3054 {
     public void createAccount(String matricno, String name) throws IOException {
         StudentSTIW3054 s = new StudentSTIW3054(matricno, name);
         list.add(s);
-        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("C:\\Users\\HALIMAH\\IdeaProjects\\255227-STIW3054-A191-A1\\student.xls")));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("C:\\Users\\HALIMAH\\Documents\\255227-STIW3054-A191-A1\\student.xls")));
         for (int x = 0; x < list.size( ); x++) {
             out.println(list.get(x).getMatricNo( ) + " " + list.get(x).getName( ));
         }

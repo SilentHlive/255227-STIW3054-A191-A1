@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainStudent {
-    private static final String FILE_NAME = "C:\\Users\\HALIMAH\\IdeaProjects\\255227-STIW3054-A191-A1\\list_of_student.xls";
+    private static final String FILE_NAME = "C:\\Users\\HALIMAH\\Documents\\255227-STIW3054-A191-A1\\list_of_student.xls";
     private static ArrayList<String> list = new ArrayList<String>( );
     public static void main(String[] args) throws IOException {
         PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(FILE_NAME)));
@@ -11,8 +11,8 @@ public class MainStudent {
         int k=1;
         int g=1;
         // The text file location of your choice
-        String filename = "C:\\Users\\HALIMAH\\IdeaProjects\\255227-STIW3054-A191-A1\\student.xls";
-        String filename2 = "C:\\Users\\HALIMAH\\IdeaProjects\\255227-STIW3054-A191-A1\\account.xls";
+        String filename = "C:\\Users\\HALIMAH\\Documents\\255227-STIW3054-A191-A1\\student.xls";
+        String filename2 = "C:\\Users\\HALIMAH\\Documents\\255227-STIW3054-A191-A1\\account.xls";
             String[] lines = rf.readLines(filename);
             String[] lines2 = rf.readLines(filename2);
             String str[] = new String[lines.length];
