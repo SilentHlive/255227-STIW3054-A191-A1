@@ -8,7 +8,7 @@ Result:<br />
   <img src="https://github.com/SilentHlive/255227-STIW3054-A191-A1/blob/master/output1.PNG" width="500" alt="accessibility text">
 <br />
 UML Class Diagram : <br />
-  <img src="https://github.com/SilentHlive/255227-STIW3054-A191-A1/blob/master/255227-STIW3054-A191-A1/uml.png" width="500" alt="accessibility text">
+  <img src="https://github.com/SilentHlive/255227-STIW3054-A191-A1/blob/master/uml.png" width="500" alt="accessibility text">
 <br />Youtube Presentation<br />
 https://youtu.be/zyDvmMnwNKk<br /><br />
 References <br/>
